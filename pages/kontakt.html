@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Max</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="rubrik">
+        <h3>Kontakt</h3>
+    </header>
+    <section class="beskrivning">
+        <p>
+            Skulle du vilja komma i kontakt med mig? Eller ännu bättre att jag kontaktar dig? Fyll då i formuläret nedan
+            så återkommer jag till dig så fort jag har möjlighet!
+        </p>
+    </section>
+    <form id="form">
+        <div>
+            <label for="namn">Förnamn:</label>
+            <input type="text" name="namn" id="namn" value="Ditt Förnamn">
+        </div>
+        <label for="efternamn">Efternamn:</label>
+        <input type="text" name="efternamn" id="efternamn" value="Ditt Efternamn">
+        <div>
+            <div>
+                <label for="kontakt">Hur vill du bli kontaktad?</label>
+            </div>
+                <input type="radio" id="telefon" name="kontakt" value="telefon">
+                <label for="telefon">Telefon</label>
+                <input type="radio" id="email" name="kontakt" value="email">
+                <label for="email">E-mail</label>
+                <div>
+                    <input type="text" name="telefon-email" id="email-telefon" value="Telefon/E-mail">
+                </div>
+        </div>
+        <div>
+            <textarea name="fraga-kommentar" id="fraga-kommentar" cols="30"
+                rows="10">Din Fråga eller Kommentar</textarea>
+        </div>
+        <div>
+            <input type="submit" value="Skicka in!">
+        </div>
+    </form>
+    <section class="links">
+        <a id="index-link" href="../index.html">Huvudsida</a>
+        <a id="inspiration-link" href="inspiration.html">Inspiration</a>
+    </section>
+</body>
+
+</html>
